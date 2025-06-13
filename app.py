@@ -69,4 +69,5 @@ def predict():
 
 # For local system & cloud
 if __name__ == "__main__":
-    app.run(threaded=False)
+    app.run(host='0.0.0.0', port=8080, threaded=False)
+
